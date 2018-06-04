@@ -1,6 +1,6 @@
 # ResumableJob
 
-[![Build Status: master](https://travis-ci.com/SleeplessByte/resumable_job.svg?token=FpDLv4Yva15pzqYpq9Hk&branch=master)](https://travis-ci.com/SleeplessByte/resumable_job) 
+[![Build Status: master](https://travis-ci.com/SleeplessByte/resumable_job.svg)](https://travis-ci.com/SleeplessByte/resumable_job) 
 [![Gem Version](https://badge.fury.io/rb/resumable_job.svg)](https://badge.fury.io/rb/resumable_job)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
