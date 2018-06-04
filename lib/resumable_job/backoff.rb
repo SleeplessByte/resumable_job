@@ -13,7 +13,9 @@ module ResumableJob
       end
     end
 
-    delegate :to_i, to: :to_time
+    def to_i
+      to_time.to_i
+    end
 
     def initialize(attempt, base: DEFAULT_BASE_IN_MINUTES)
       self.attempt = attempt
