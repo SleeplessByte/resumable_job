@@ -12,6 +12,13 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Make an ActiveJob resumable'
   spec.license       = 'MIT'
 
+  s.metadata = {
+    'bug_tracker_uri'   => 'https://github.com/SleeplessByte/resumable_job/issues',
+    'changelog_uri'     => 'https://github.com/SleeplessByte/resumable_job/CHANGELOG.md',
+    'homepage_uri'      => 'https://github.com/SleeplessByte/resumable_job',
+    'source_code_uri'   => 'https://github.com/SleeplessByte/resumable_job'
+  }
+
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
