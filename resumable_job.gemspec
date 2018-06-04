@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Make an ActiveJob resumable'
   spec.license       = 'MIT'
 
-  s.metadata = {
+  spec.metadata = {
     'bug_tracker_uri'   => 'https://github.com/SleeplessByte/resumable_job/issues',
     'changelog_uri'     => 'https://github.com/SleeplessByte/resumable_job/CHANGELOG.md',
     'homepage_uri'      => 'https://github.com/SleeplessByte/resumable_job',
