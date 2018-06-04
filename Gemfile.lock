@@ -10,6 +10,7 @@ GEM
     rake (10.5.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
