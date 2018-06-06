@@ -6,5 +6,7 @@
 /pkg/
 /spec/reports/
 /tmp/
+
 .rakeTasks
 .idea
+Gemfile.lock
