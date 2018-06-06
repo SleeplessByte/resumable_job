@@ -1,5 +1,22 @@
 sudo: false
 language: ruby
 rvm:
+  - 2.0.0
+  - 2.1
+  - 2.2
+  - 2.3
   - 2.4.4
-before_install: gem install bundler -v 1.16.2
+  - jruby
+  - rbx-3
+  - ree
+  - ruby-head
+matrix:
+  allow_failures:
+    rvm:
+      - ruby-head
+      - ree
+      - rbx-3
+
+before_install:
+  - gem update --system
+  - gem --version
