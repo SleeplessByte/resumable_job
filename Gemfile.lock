@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    resumable_job (0.1.1)
+    resumable_job (0.1.2)
 
 GEM
   remote: https://rubygems.org/
