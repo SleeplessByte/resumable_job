@@ -3,11 +3,12 @@
 [![Build Status: master](https://travis-ci.com/SleeplessByte/resumable_job.svg)](https://travis-ci.com/SleeplessByte/resumable_job) 
 [![Gem Version](https://badge.fury.io/rb/resumable_job.svg)](https://badge.fury.io/rb/resumable_job)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+[![Maintainability](https://api.codeclimate.com/v1/badges/0e24799041c87852d8c0/maintainability)](https://codeclimate.com/repos/5b15471aef14fd7333000014/maintainability)
 
 Make any `ActiveJob` resumable.
 
 Use exception flow to make jobs exceptionally resumable, whilst retaining other state, with automatic exponential
-backoff handling. ActiveJob is not a dependency, so this could be used with "anything". Adds a `module` to `include`
+backoff handling. `ActiveJob` is *not* a dependency, so this could be used with "anything". Adds a `module` to `include`
 somewhere that adds a method which yields a block. During this block, you can throw a `ResumableJob::ResumeLater` to 
 call the following:
 
