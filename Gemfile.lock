@@ -19,11 +19,11 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bundler (~> 1.16)
+  bundler (~> 2)
   minitest (~> 5.0)
   rake (~> 13.0)
   resumable_job!
   simplecov
 
 BUNDLED WITH
-   1.16.2
+   2.1.4
