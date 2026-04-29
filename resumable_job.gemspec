@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
   spec.platform = 'java' if RUBY_PLATFORM =~ /java/
 
   spec.add_development_dependency 'bundler', '~> 2'
-  spec.add_development_dependency 'minitest', '~> 5.0'
+  spec.add_development_dependency 'minitest', '~> 6.0'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'simplecov', '~> 0.21'
 end
